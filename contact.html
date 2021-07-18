@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>University Website Design</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?
+	family=Montserrat:ital,wght@0,300;0,400;0,600;0,700;1,100&display=swap" rel="stylesheet">   <!-------(font style)--->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+	<link href="D:\sailproject2\css\all.css" rel="stylesheet">
+</head>
+<body>
+      <section class="sub-header">
+	      <nav>
+		     <a href="index.html"><img src="images/logo.png"></a>
+			 <div class="nav-links" id="navLinks">
+			 <i class="fa fa-window-close" onclick="hiddenMenu()"></i>
+			     <ul>
+				    <li><a href="index.html">HOME</a></li>
+				    <li><a href="about.html">ABOUT</a></li>
+				    <li><a href="course.html">COURSE</a></li>
+				    <li><a href="blog.html">BLOGS</a></li>
+					<li><a href="contact.html">CONTACT</a></li>
+				 </ul>
+			 </div>
+			 <i class="fa fa-bars" onclick="showMenu()"></i>
+		  </nav>
+	          <h2>Contact Us</h2>
+			  
+	  </section>
+	  
+	
+	 <!-----------contact us---------->
+	 
+	 <section class="location">
+	      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d238129.60363191523!2d78.93242195217401!3d21.161348396232462!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd4c0a5a31faf13%3A0x19b37d06d0bb3e2b!2sNagpur%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1619507084984!5m2!1sen!2sin" width="600" height="450" 
+		        style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+	 </section>
+	 
+	 <section class="contact-us">
+	 
+	     <div class="row">
+		    <div class="contact-col">
+			     <div>
+				      <i class="fa fa-home"></i>
+					  <span>
+					     <h5>XYZ road,ABC Builind</h5>
+						 <p>Nagpur,Maharashtra,India <p>
+					  </span>
+				 </div>
+				 <div>
+			       <i class="fa fa-phone"></i>
+					  <span>
+					     <h5>+91-0123456789</h5>
+						 <p>Monday to Saturday , 10AM to 6PM <p>
+					  </span>
+			  </div>
+			  	 <div>
+			      <i class="fa fa-envelope"></i>
+					  <span>
+					     <h5>abkjjhkjdc@gmail.com</h5>
+						 <p>Email For any query <p>
+					  </span>
+			     </div>
+			 </div> 
+			<div class="contact-col">
+			   
+			   <form action="form-handeler.php" method="post">
+			       <input type="text" name="name" placeholder="Enter Your Name" required>
+				   <input type="email" name ="email" placeholder="Enter email address" required>
+				   <input type="text" name="subject" placeholder="Enter Your Subject" required>
+				   <textarea rows="8" name="message" placeholder="Massage" required></textarea>
+				   <button type="submit" class="hero-btn red-btn">Send Message</button>
+			   </form>
+			
+			</div>
+			
+			
+		 </div>
+	 </section>
+	  
+	  
+	 <!--------footer---------->
+	  
+	  <section class="footer">
+	      <h4>About Us</h4>
+		  <p>Google Fonts (formerly known as Google Web Fonts) is a library oGoogle Fots (formerly known as 
+			 <br>Google Web Fonts is a library onts (formerly known as Google Web Fonts) is a library o</p> 
+			 
+			 <div class="icons">
+			       <i class="fab fa-facebook"></i>
+
+				   <i class="fab fa-twitter"></i>
+				   <i class="fab fa-instagram"></i>
+				   <i class="fab fa-linkedin"></i>
+			 </div>
+			 <p>Made With <i class="fa fa-heart"></i>By Sail Suresh Nimkar</p>
+	  <section>
+	  
+	  
+	  
+	  <!--------javascript for toggle menu------->
+      
+	  <script>
+	      
+		  var navLinks = document.getElementById("navLinks");
+		  fuction showMenu(){
+		      nav-links.style.right = "0";
+		  }
+		  fuction hideMenu(){
+		      nav-links.style.right = "-200";
+		  }
+	  </script>
+</body>
+</html>
